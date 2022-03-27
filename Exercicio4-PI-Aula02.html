@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<style>
+    .container{
+        background-color: rgb(153, 93, 78);
+        width: 70vw;
+        height: 40vh;
+        border: solid;
+        border-color: black;
+        border-width: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        height: 70%;
+        border: solid;
+        border-color: rgb(3, 3, 179);
+        border-width: 10px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4%;
+        height: 30vh;
+        width: 100vw;
+    }
+    #azul{
+        height:6vh;
+        width: 69vw;
+        background-color: blue;
+    }
+    #roxo{
+        height:6vh;
+        width: 43vw;
+        background-color: rgb(74, 32, 122);
+    }
+    #verde{
+        height:6vh;
+        width: 59vw;
+        background-color: rgb(32, 100, 11);
+    }
+    #amarelo{
+        height:6vh;
+        width: 51vw;
+        background-color: rgb(247, 231, 19);
+    }
+    .container3{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+    }
+    #vermelho{
+        background-color: red;
+        height: 6vh;
+        width: 45vw;
+    }
+    #cinza_azul{
+        background-color: #1f7d8a;
+        height: 6vh;
+        width: 20vw;
+    }
+    #verde_claro{
+        background-color: #80f334;
+        height: 6vh;
+        width: 35vw;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <p> Eu sou um parágrafo com fonte Arial que ficou bem legal!</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div id="azul"></div>
+        <div id="roxo"></div>
+        <div id="verde"></div>
+        <div id="amarelo"></div>
+    </div>
+    <div class="container3">
+        <div id="vermelho"></div>
+        <div id="cinza_azul"></div>
+        <div id="verde_claro"></div>
+    </div>
+</body>
+</html>
